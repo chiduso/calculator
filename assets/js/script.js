@@ -1,20 +1,3 @@
-//  let insert = document.getElementById('insert'),    
-//     yo = document.getElementById('yo');
- 
-//  function calc(val){
-//   return insert.innerText  +=  val.innerText
-//  };
-
-//  function clear(){
-//   let display = insert.innerText;
-//   insert.innerText = '';
-//   return  display
-//  };a
-// // yo.addEventListener('click', (e) => {
-// //   e.preventDefault();
-// //   insert.innerText += calc(yo);
-// // })
-
 const display = document.querySelector('#display');
 const buttons = document.querySelectorAll('button');
 
@@ -37,7 +20,7 @@ buttons.forEach((item) => {
 })
 
 const themeToggleBtn = document.querySelector('.theme-toggler');
-const calculator = document.querySelector('.calculato');
+const calculator = document.querySelector('.calculator');
 const toggleIcon = document.querySelector('.toggler-icon');
 let isDark = true;
 themeToggleBtn.onclick = () => {
